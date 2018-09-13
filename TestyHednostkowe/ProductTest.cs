@@ -13,8 +13,8 @@ namespace TestyJednostkowe
         [TestInitialize]
         public void setUpProducts()
         {
-            String sciezka = @"..\..\..\ConsoleApp1\Resources\product_list.csv";
-            productsArray = ProductsImporter.importFromFile(sciezka);
+            String path = @"..\..\..\ConsoleApp1\Resources\product_list.csv";
+            productsArray = ProductsImporter.importFromFile(path);
         }
 
         [TestMethod]
@@ -29,7 +29,6 @@ namespace TestyJednostkowe
             Boolean productFound = false;
             for (int i = 0; i < productsArray.GetLength(0); i++)
             {
-                Console.Write(productsArray[i].title);
                 if (productsArray[i].title == "apap")
                 {
                     productFound = true;
