@@ -51,6 +51,7 @@
     <Compile Include="ArrayInitializerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProductTest.cs" />
+    <Compile Include="StatesTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
