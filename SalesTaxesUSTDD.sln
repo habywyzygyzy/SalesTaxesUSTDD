@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxesUSTDD", "ConsoleApp1\SalesTaxesUSTDD.csproj", "{BA3A6EC2-C383-487F-AD26-1FC7858AAEB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestyHednostkowe", "TestyHednostkowe\TestyHednostkowe.csproj", "{F25C6FCC-3728-4C1F-BDA5-4A4B89F04EB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestyJednostkowe", "TestyHednostkowe\TestyJednostkowe.csproj", "{F25C6FCC-3728-4C1F-BDA5-4A4B89F04EB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
