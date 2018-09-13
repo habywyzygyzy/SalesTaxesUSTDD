@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleApp1;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestyHednostkowe
