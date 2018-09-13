@@ -1,19 +1,19 @@
 ﻿using System;
-using ConsoleApp1;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SalesTaxesUSTDD;
 
 namespace TestyJednostkowe
 {
     [TestClass]
     public class ProductTests
     {
-        private static Product[] productsArray = Initializer.InitializeArray<Product>(19);
+        private static Product[] productsArray = new Product[19];
 
 
         [TestInitialize]
         public void setUpProducts()
         {
-            String sciezka = @"..\..\..\SaleTaxUS\Resources\product_list.csv";
+            String sciezka = @"..\..\..\ConsoleApp1\Resources\product_list.csv";
             productsArray = ProductsImporter.importFromFile(sciezka);
         }
 
@@ -29,6 +29,7 @@ namespace TestyJednostkowe
             Boolean productFound = false;
             for (int i = 0; i < productsArray.GetLength(0); i++)
             {
+                Console.Write(productsArray[i].title);
                 if (productsArray[i].title == "apap")
                 {
                     productFound = true;
