@@ -10,6 +10,7 @@ namespace SalesTaxesUSTDD
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
